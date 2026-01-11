@@ -1,0 +1,1 @@
+import"./config.CNHcugV5.js";import"./zh_TW.BW8a2Ucy.js";function u(o,n){const e=o.replace(/^\/|\/$/g,"").toLowerCase(),r=n.replace(/^\/|\/$/g,"").toLowerCase();return e===r}function t(...o){return o.join("/").replace(/\/+/g,"/")}function c(o){return t("","/shizhukan.github.io/",o)}export{u as p,c as u};

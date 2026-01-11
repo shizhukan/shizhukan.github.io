@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>石竹刊</title>
+  <subtitle>一个演示网站</subtitle>
+  <link href="https://shizhukan.github.io/" rel="alternate" type="text/html"/>
+  <link href="https://shizhukan.github.io/atom.xml" rel="self" type="application/atom+xml"/>
+  <id>https://shizhukan.github.io/</id>
+  <updated>2026-01-11T00:07:49.588Z</updated>
+  <language>zh_CN</language>
+  <entry>
+    <title>text</title>
+    <link href="https://shizhukan.github.io/shizhukan.github.io/posts/guide/" rel="alternate" type="text/html"/>
+    <id>https://shizhukan.github.io/shizhukan.github.io/posts/guide/</id>
+    <published>2026-01-11T00:00:00.000Z</published>
+    <updated>2026-01-11T00:00:00.000Z</updated>
+    <summary>text</summary>
+    <content type="html"><![CDATA[<h2>欢迎来到石竹刊的小站</h2>
+<p>现在还是懒狗暂无想法</p>
+]]></content>
+    <author>
+      <name>石竹刊</name>
+    </author>
+    <category term="杂谈"></category>
+  </entry>
+</feed>
