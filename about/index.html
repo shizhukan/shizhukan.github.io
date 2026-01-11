@@ -1360,58 +1360,8 @@ const yearSuffix = "年";
 	init();
 })();</script>  </div> <!-- 粘性组件区域 -->  </div> <!-- 响应式样式和JavaScript -->  <script type="module" src="/_astro/RightSideBar.astro_astro_type_script_index_0_lang.1hBtZuGh.js"></script></div> <main id="swup-container" class="transition-swup-fade overflow-hidden w-full col-span-1 row-start-1 row-end-2 col-span-1 row-start-1 row-end-2 lg:col-start-2 lg:col-end-3 lg:col-start-2 lg:col-end-3 transition-main" data-astro-cid-haiuh7kc> <div id="content-wrapper" class="onload-animation transition-leaving" data-astro-cid-haiuh7kc> <!-- the overflow-hidden here prevent long text break the layout--> <!-- make id different from windows.swup global property -->   <script type="module" src="/_astro/about.astro_astro_type_script_index_0_lang.dvY850Ym.js"></script> <div class="flex w-full rounded-[var(--radius-large)] overflow-hidden relative min-h-32"> <div class="card-base z-10 px-9 py-6 relative w-full"> <!-- 页面标题 --> <div class="flex flex-col items-start justify-center mb-8"> <h1 class="text-4xl font-bold text-black/90 dark:text-white/90 mb-2 relative
                           before:w-1 before:h-8 before:rounded-md before:bg-[var(--primary)]
-                          before:absolute before:top-1/2 before:-translate-y-1/2 before:-left-4"> 关于我们 </h1> </div> <!-- 从MD文件读取的内容 --> <div data-pagefind-body class="prose dark:prose-invert prose-base !max-w-none custom-md mt-2"> <!--<div class="prose dark:prose-invert max-w-none custom-md">--> <!--<div class="max-w-none custom-md">-->  <p>This website is built with the <strong>Astro</strong> framework using the <a href="https://github.com/matsuzaka-yuki/mizuki">Mizuki</a> theme.</p>
-<a id="GCjnpdax-card" class="card-github fetch-waiting no-styling" href="https://github.com/matsuzaka-yuki/Mizuki" target="_blank" repo="matsuzaka-yuki/Mizuki"><div class="gc-titlebar"><div class="gc-titlebar-left"><div class="gc-owner"><div id="GCjnpdax-avatar" class="gc-avatar"></div><div class="gc-user">matsuzaka-yuki</div></div><div class="gc-divider">/</div><div class="gc-repo">Mizuki</div></div><div class="github-logo"></div></div><div id="GCjnpdax-description" class="gc-description">Waiting for api.github.com...</div><div class="gc-infobar"><div id="GCjnpdax-stars" class="gc-stars">00K</div><div id="GCjnpdax-forks" class="gc-forks">0K</div><div id="GCjnpdax-license" class="gc-license">0K</div><span id="GCjnpdax-language" class="gc-language">Waiting...</span></div><script id="GCjnpdax-script" type="text/javascript" defer>
-      fetch('https://api.github.com/repos/matsuzaka-yuki/Mizuki', { referrerPolicy: "no-referrer" }).then(response => response.json()).then(data => {
-        document.getElementById('GCjnpdax-description').innerText = data.description?.replace(/:[a-zA-Z0-9_]+:/g, '') || "Description not set";
-        document.getElementById('GCjnpdax-language').innerText = data.language;
-        document.getElementById('GCjnpdax-forks').innerText = Intl.NumberFormat('en-us', { notation: "compact", maximumFractionDigits: 1 }).format(data.forks).replaceAll(" ", '');
-        document.getElementById('GCjnpdax-stars').innerText = Intl.NumberFormat('en-us', { notation: "compact", maximumFractionDigits: 1 }).format(data.stargazers_count).replaceAll(" ", '');
-        const avatarEl = document.getElementById('GCjnpdax-avatar');
-        avatarEl.style.backgroundImage = 'url(' + data.owner.avatar_url + ')';
-        avatarEl.style.backgroundColor = 'transparent';
-        document.getElementById('GCjnpdax-license').innerText = data.license?.spdx_id || "no-license";
-        document.getElementById('GCjnpdax-card').classList.remove("fetch-waiting");
-        console.log("[GITHUB-CARD] Loaded card for matsuzaka-yuki/Mizuki | GCjnpdax.")
-      }).catch(err => {
-        const c = document.getElementById('GCjnpdax-card');
-        c?.classList.add("fetch-error");
-        console.warn("[GITHUB-CARD] (Error) Loading card for matsuzaka-yuki/Mizuki | GCjnpdax.")
-      })
-    </script></a>
-<section><h2 id="-theme-features">🌟 Theme Features<a class="anchor" href="#-theme-features"><span class="anchor-icon" data-pagefind-ignore="">#</span></a></h2><section><h3 id="-design--user-experience">🎨 Design &#x26; User Experience<a class="anchor" href="#-design--user-experience"><span class="anchor-icon" data-pagefind-ignore="">#</span></a></h3><ul>
-<li><strong>Modern &#x26; Elegant Design</strong> - Clean, minimalist interface with beautiful typography</li>
-<li><strong>Fully Responsive</strong> - Optimized for all devices from mobile to desktop</li>
-<li><strong>Dark/Light Mode</strong> - Automatic theme switching with smooth transitions</li>
-<li><strong>Beautiful Typography</strong> - Enhanced readability with JetBrains Mono font</li>
-<li><strong>Smooth Animations</strong> - Fluid page transitions and interactive elements</li>
-</ul></section><section><h3 id="-content--search">🔍 Content &#x26; Search<a class="anchor" href="#-content--search"><span class="anchor-icon" data-pagefind-ignore="">#</span></a></h3><ul>
-<li><strong>Advanced Search</strong> - Powered by <a href="https://pagefind.app/">Pagefind</a> for fast, accurate results</li>
-<li><strong>Enhanced Markdown</strong> - Extended syntax with code highlighting and math support</li>
-<li><strong>Interactive Table of Contents</strong> - Auto-scroll navigation for long articles</li>
-<li><strong>RSS Feed Generation</strong> - Stay updated with automatic feed generation</li>
-<li><strong>Reading Time Estimation</strong> - Know how long articles take to read</li>
-<li><strong>Post Categorization</strong> - Organize content with tags and categories</li>
-</ul></section><section><h3 id="-special-pages">📱 Special Pages<a class="anchor" href="#-special-pages"><span class="anchor-icon" data-pagefind-ignore="">#</span></a></h3><ul>
-<li><strong>Anime Tracking Page</strong> - Track your anime watching progress with ratings</li>
-<li><strong>Friends Links Page</strong> - Showcase friend websites with beautiful cards</li>
-<li><strong>Diary/Moments Page</strong> - Share life moments like social media posts</li>
-<li><strong>Archive Page</strong> - Organized timeline view of all posts</li>
-<li><strong>About Page</strong> - Customizable personal introduction (this page!)</li>
-</ul></section><section><h3 id="-technical-features">🛠 Technical Features<a class="anchor" href="#-technical-features"><span class="anchor-icon" data-pagefind-ignore="">#</span></a></h3><ul>
-<li><strong>Enhanced Code Blocks</strong> - Powered by <a href="https://expressive-code.com/">Expressive Code</a></li>
-<li><strong>Math Support</strong> - LaTeX rendering with KaTeX for mathematical expressions</li>
-<li><strong>Image Optimization</strong> - PhotoSwipe gallery with lazy loading</li>
-<li><strong>SEO Optimized</strong> - Built-in sitemap and meta tags for better search visibility</li>
-<li><strong>Performance Optimized</strong> - Fast loading with caching and optimization</li>
-<li><strong>Comment System Ready</strong> - Integration support for Twikoo comments</li>
-</ul></section><section><h3 id="-advanced-markdown-features">🎯 Advanced Markdown Features<a class="anchor" href="#-advanced-markdown-features"><span class="anchor-icon" data-pagefind-ignore="">#</span></a></h3><ul>
-<li><strong>Callouts &#x26; Admonitions</strong> - Beautiful info boxes with <code>> [!NOTE]</code>, <code>> [!TIP]</code>, <code>> [!WARNING]</code></li>
-<li><strong>Mathematical Equations</strong> - Write LaTeX math with <code>$inline$</code> and <code>$$block$$</code> syntax</li>
-<li><strong>GitHub Cards</strong> - Embed repository cards with <code>::github{repo="user/repo"}</code></li>
-<li><strong>Syntax Highlighting</strong> - Advanced code highlighting with line numbers</li>
-<li><strong>Copy Code Buttons</strong> - Easy code copying functionality</li>
-</ul><hr><p><em>Built with ❤️ using Astro and inspired by modern web design principles.</em></p></section></section>  </div> <script type="module">document.addEventListener("click",function(r){const c=r.target;if(c&&c.classList.contains("copy-btn")){const s=c.parentElement?.querySelector("code");let l="";if(s){const t=s.querySelectorAll("span.line");if(t.length>0){const o=[];for(let e=0;e<t.length;e++){const i=t[e].textContent||"";o.push(i)}l=o.join(`
+                          before:absolute before:top-1/2 before:-translate-y-1/2 before:-left-4"> 关于我们 </h1> </div> <!-- 从MD文件读取的内容 --> <div data-pagefind-body class="prose dark:prose-invert prose-base !max-w-none custom-md mt-2"> <!--<div class="prose dark:prose-invert max-w-none custom-md">--> <!--<div class="max-w-none custom-md">-->  <p>思考良久 不知道放什么 但是来都来了 听个哈基米再走吧</p>
+<iframe width="100%" height="600" src="//player.bilibili.com/player.html?bvid=BV17dh8zLErZ&#x26;p=1&#x26;autoplay=0" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" &#x26;autoplay="0"> </iframe>  </div> <script type="module">document.addEventListener("click",function(r){const c=r.target;if(c&&c.classList.contains("copy-btn")){const s=c.parentElement?.querySelector("code");let l="";if(s){const t=s.querySelectorAll("span.line");if(t.length>0){const o=[];for(let e=0;e<t.length;e++){const i=t[e].textContent||"";o.push(i)}l=o.join(`
 `)}else{const o=s.querySelectorAll(".code:not(summary *)");if(o.length>0){const e=[];for(let n=0;n<o.length;n++){const a=o[n].textContent||"";e.push(a)}l=e.join(`
 `)}else l=s.textContent||""}}l=l.replace(/\n\n\n+/g,function(t){const e=t.length-1;let n;return e%2===0?n=e/2:n=Math.floor((e+1)/2),n<1&&(n=1),`
 `.repeat(n+1)}),(async t=>{try{await navigator.clipboard.writeText(t)}catch(o){console.warn("Clipboard API 失败，尝试备用方案:",o);const e=document.createElement("textarea");e.value=t,e.style.position="fixed",e.style.left="-999999px",e.style.top="-999999px",document.body.appendChild(e),e.focus(),e.select(),document.body.removeChild(e)}})(l).then(()=>{const t=c.getAttribute("data-timeout-id");t&&clearTimeout(parseInt(t)),c.classList.add("success");const o=setTimeout(()=>{c.classList.remove("success")},1e3);c.setAttribute("data-timeout-id",o.toString())}).catch(t=>{console.error("复制失败:",t)})}});</script> </div> </div>  <div class="footer col-span-2 onload-animation hidden lg:block" data-astro-cid-haiuh7kc> <!--<div class="border-t border-[var(&#45;&#45;primary)] mx-16 border-dashed py-8 max-w-[var(&#45;&#45;page-width)] flex flex-col items-center justify-center px-6">--><div class="transition border-t border-black/10 dark:border-white/15 my-10 border-dashed mx-32"></div> <!--<div class="transition bg-[oklch(92%_0.01_var(&#45;&#45;hue))] dark:bg-black rounded-2xl py-8 mt-4 mb-8 flex flex-col items-center justify-center px-6">--> <div class="transition border-dashed border-[oklch(85%_0.01_var(--hue))] dark:border-white/15 rounded-2xl mb-12 flex flex-col items-center justify-center px-6"> <div class="transition text-50 text-sm text-center"> 
